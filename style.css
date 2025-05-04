@@ -1,0 +1,60 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2b2b3d);
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #00ffd5;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.features {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.features li {
+  margin-bottom: 10px;
+  list-style: "✨ ";
+  padding-left: 8px;
+}
+
+.play-btn {
+  margin-top: 30px;
+  background-color: #00ffd5;
+  color: #1e1e2f;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.play-btn:hover {
+  background-color: #00c9a7;
+}
